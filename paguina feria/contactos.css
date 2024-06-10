@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body{
+    text-align: center;
+    font-family: serif;
+}
+.barra_links{
+    display: flex;
+    margin-right: 30px;
+}
+
+
+.barra_links a {
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    padding: 20px 20px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.barra_links a:hover{
+    background: #3f3f3f;
+}
+.cabeza{
+    display: flex;
+    justify-content: space-between;
+    height: 63px;
+    align-items: center;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.contactos{
+    background-color: #3f3f3f;
+    height: 70vh;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contactos a{
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    text-transform: uppercase;
+}
+
+
+.pie{
+    background-color: #171717;
+    color: #fff;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+    display: flex
+}
+
+img{
+    height: 18rem;
+    border-radius: 3rem;
+}
+
+.caja a :hover{
+    height: 19rem;
+    width: 19rem;
+}

@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body{
+    text-align: center;
+    font-family: serif;
+}
+
+.cabeza{
+    display: flex;
+    justify-content: space-between;
+    height: 63px;
+    align-items: center;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.barra_links{
+    display: flex;
+    margin-right: 30px;
+}
+
+
+.barra_links a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 20px 20px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.barra_links a:hover{
+    background: #3f3f3f;
+}
+
+.contenido-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+p{
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+.contenido-header{
+    height: 90vh !important;
+    background: url()no-repeat center;
+    background-size: cover;
+}
+
+.titulo{
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.intro{
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #5e3a3a;
+}
+    
+.contenido-abajo{
+    height: 50vh;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido-abajo{
+    padding: 110px;
+    background: #181515;
+}
+
+.redes{
+    font-size: 10px;
+    color: #fff;
+}
+
+
+
+.caja-contenido{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.caja-contenedor .caja{
+    height: 18rem;
+    width: 17rem;
+    
+    text-align: center;
+    border-radius: 1rem;
+    margin: 2rem;
+}
+
+.caja-contenedor .titulo-caja{
+    background: #0741ff;
+    border-radius: 1rem;
+
+}
+
+.contenido-abajo p{
+    color: #fff;
+}
+
+.adancito{
+    height: 18rem;
+    background: url(./img/2011.png)no-repeat center;
+    background-size: cover;
+}
+
+.adan{
+    height: 18rem;
+    background: url(./img/adancruz2016.jpg)no-repeat center;
+    background-size: cover;
+}
+
+.adanzote{
+    height: 18rem;
+    background: url(./img/vaiven.jpg)no-repeat center ;
+    background-size: cover;
+}
+
+
+.contactos{
+    background-color: #3f3f3f;
+    height: 70vh;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contactos a{
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    text-transform: uppercase;
+}
+
+
+.pie{
+    background-color: #171717;
+    color: #fff;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+    display: flex
+}
+
+img{
+    height: 18rem;
+    border-radius: 3rem;
+}
+
+.caja a :hover{
+    height: 19rem;
+    width: 19rem;
+}
